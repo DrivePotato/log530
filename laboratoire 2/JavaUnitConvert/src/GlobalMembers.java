@@ -391,7 +391,7 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionJouleCaloria(numero);
+			resultado = conversionJouleCaloria(numero);
 			break;
 
 			case 2:
