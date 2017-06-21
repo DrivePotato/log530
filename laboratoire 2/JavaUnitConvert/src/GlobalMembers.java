@@ -444,6 +444,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -453,31 +454,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionCaloriaJoule(numero);
+				resultado = conversionCaloriaJoule(numero);
 			break;
 
 			case 2:
-			conversionCaloriaKCaloria(numero);
+				resultado = conversionCaloriaKCaloria(numero);
 			break;
 
 			case 3:
-			conversionCaloriaBTU(numero);
+				resultado = conversionCaloriaBTU(numero);
 			break;
 
 			case 4:
-			conversionCaloriaKWHR(numero);
+				resultado = conversionCaloriaKWHR(numero);
 			break;
 
 			case 5:
-			conversionCaloriaHPHR(numero);
+				resultado = conversionCaloriaHPHR(numero);
 			break;
 
 			case 6:
-			conversionCaloriaPielb(numero);
+				resultado = conversionCaloriaPielb(numero);
 			break;
 
 			case 7:
-			conversionCaloriaLitroAtm(numero);
+				resultado = conversionCaloriaLitroAtm(numero);
 			break;
 
 			case 8:
@@ -497,6 +498,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -506,31 +508,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionKCaloriaJoule(numero);
+				resultado = conversionKCaloriaJoule(numero);
 			break;
 
 			case 2:
-			conversionKCaloriaCaloria(numero);
+				resultado = conversionKCaloriaCaloria(numero);
 			break;
 
 			case 3:
-			conversionKCaloriaBTU(numero);
+				resultado = conversionKCaloriaBTU(numero);
 			break;
 
 			case 4:
-			conversionKCaloriaKWHR(numero);
+				resultado = conversionKCaloriaKWHR(numero);
 			break;
 
 			case 5:
-			conversionKCaloriaHPHR(numero);
+				resultado = conversionKCaloriaHPHR(numero);
 			break;
 
 			case 6:
-			conversionKCaloriaPielb(numero);
+				resultado = conversionKCaloriaPielb(numero);
 			break;
 
 			case 7:
-			conversionKCaloriaLitroAtm(numero);
+				resultado = conversionKCaloriaLitroAtm(numero);
 			break;
 
 			case 8:
@@ -550,6 +552,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -559,31 +562,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionBTUJoule(numero);
+				resultado = conversionBTUJoule(numero);
 			break;
 
 			case 2:
-			conversionBTUCaloria(numero);
+				resultado = conversionBTUCaloria(numero);
 			break;
 
 			case 3:
-			conversionBTUKCaloria(numero);
+				resultado = conversionBTUKCaloria(numero);
 			break;
 
 			case 4:
-			conversionBTUKWHR(numero);
+				resultado = conversionBTUKWHR(numero);
 			break;
 
 			case 5:
-			conversionBTUHPHR(numero);
+				resultado = conversionBTUHPHR(numero);
 			break;
 
 			case 6:
-			conversionBTUPielb(numero);
+				resultado = conversionBTUPielb(numero);
 			break;
 
 			case 7:
-			conversionBTULitroAtm(numero);
+				resultado = conversionBTULitroAtm(numero);
 			break;
 
 			case 8:
@@ -603,6 +606,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -612,31 +616,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionKWHRJoule(numero);
+				resultado = conversionKWHRJoule(numero);
 			break;
 
 			case 2:
-			conversionKWHRCaloria(numero);
+				resultado = conversionKWHRCaloria(numero);
 			break;
 
 			case 3:
-			conversionKWHRKCaloria(numero);
+				resultado = conversionKWHRKCaloria(numero);
 			break;
 
 			case 4:
-			conversionKWHRBTU(numero);
+				resultado = conversionKWHRBTU(numero);
 			break;
 
 			case 5:
-			conversionKWHRHPHR(numero);
+				resultado = conversionKWHRHPHR(numero);
 			break;
 
 			case 6:
-			conversionKWHRPielb(numero);
+				resultado = conversionKWHRPielb(numero);
 			break;
 
 			case 7:
-			conversionKWHRLitroAtm(numero);
+				resultado = conversionKWHRLitroAtm(numero);
 			break;
 
 			case 8:
@@ -656,6 +660,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -665,31 +670,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionHPHRJoule(numero);
+				resultado = conversionHPHRJoule(numero);
 			break;
 
 			case 2:
-			conversionHPHRCaloria(numero);
+				resultado = conversionHPHRCaloria(numero);
 			break;
 
 			case 3:
-			conversionHPHRKCaloria(numero);
+				resultado = conversionHPHRKCaloria(numero);
 			break;
 
 			case 4:
-			conversionHPHRBTU(numero);
+				resultado = conversionHPHRBTU(numero);
 			break;
 
 			case 5:
-			conversionHPHRKWHR(numero);
+				resultado = conversionHPHRKWHR(numero);
 			break;
 
 			case 6:
-			conversionHPHRPielb(numero);
+				resultado = conversionHPHRPielb(numero);
 			break;
 
 			case 7:
-			conversionHPHRLitroAtm(numero);
+				resultado = conversionHPHRLitroAtm(numero);
 			break;
 
 			case 8:
@@ -709,6 +714,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- HP-HR");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -718,31 +724,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionPielbJoule(numero);
+				resultado = conversionPielbJoule(numero);
 			break;
 
 			case 2:
-			conversionPielbCaloria(numero);
+				resultado = conversionPielbCaloria(numero);
 			break;
 
 			case 3:
-			conversionPielbKCaloria(numero);
+				resultado = conversionPielbKCaloria(numero);
 			break;
 
 			case 4:
-			conversionPielbBTU(numero);
+				resultado = conversionPielbBTU(numero);
 			break;
 
 			case 5:
-			conversionPielbKWHR(numero);
+				resultado = conversionPielbKWHR(numero);
 			break;
 
 			case 6:
-			conversionPielbHPHR(numero);
+				resultado = conversionPielbHPHR(numero);
 			break;
 
 			case 7:
-			conversionPielbLitroAtm(numero);
+				resultado = conversionPielbLitroAtm(numero);
 			break;
 
 			case 8:
@@ -762,6 +768,7 @@ public class GlobalMembers
 		System.out.print("\n6 -- HP-HR");
 		System.out.print("\n7 -- Pie-Libra\n");
 
+		pressEnterKey();
 		String tempVar = ConsoleInput.scanfRead();
 		if (tempVar != null)
 		{
@@ -771,31 +778,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			conversionLitroAtmJoule(numero);
+				resultado = conversionLitroAtmJoule(numero);
 			break;
 
 			case 2:
-			conversionLitroAtmCaloria(numero);
+				resultado = conversionLitroAtmCaloria(numero);
 			break;
 
 			case 3:
-			conversionLitroAtmKCaloria(numero);
+				resultado = conversionLitroAtmKCaloria(numero);
 			break;
 
 			case 4:
-			conversionLitroAtmBTU(numero);
+				resultado = conversionLitroAtmBTU(numero);
 			break;
 
 			case 5:
-			conversionLitroAtmKWHR(numero);
+				resultado = conversionLitroAtmKWHR(numero);
 			break;
 
 			case 6:
-			conversionLitroAtmHPHR(numero);
+				resultado = conversionLitroAtmHPHR(numero);
 			break;
 
 			case 7:
-			conversionLitroAtmPielb(numero);
+				resultado = conversionLitroAtmPielb(numero);
 			break;
 
 			case 8:
