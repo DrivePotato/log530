@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class GlobalMembers
 {
 	//Funciones de conversion de Joule a otras unidades
@@ -369,6 +371,11 @@ public class GlobalMembers
 
 		System.out.printf("El resultado es %f\n", resultado);
 	}
+	public static void pressEnterKey(){
+		   System.out.println("Pressione \"ENTER \" para continuar...");
+		   Scanner scanner = new Scanner(System.in);
+		   scanner.nextLine();
+	}
 	public static void menu_conversionJoule()
 	{
 
@@ -382,7 +389,10 @@ public class GlobalMembers
 		System.out.print("\n6 -- Pie-Libra");
 		System.out.print("\n7 -- Litro-Atmosfera\n");
 
-		String tempVar = ConsoleInput.scanfRead();
+		pressEnterKey();
+		String tempVar = ConsoleInput. scanfRead();
+		
+		
 		if (tempVar != null)
 		{
 			opcion = Integer.parseInt(tempVar);
@@ -391,31 +401,31 @@ public class GlobalMembers
 		switch (opcion)
 		{
 			case 1:
-			resultado = conversionJouleCaloria(numero);
+				resultado = conversionJouleCaloria(numero);
 			break;
 
 			case 2:
-			conversionJouleKCaloria(numero);
+				resultado = conversionJouleKCaloria(numero);
 			break;
 
 			case 3:
-			conversionJouleBTU(numero);
+				resultado = conversionJouleBTU(numero);
 			break;
 
 			case 4:
-			conversionJouleKWHR(numero);
+				resultado = conversionJouleKWHR(numero);
 			break;
 
 			case 5:
-			conversionJouleHPHR(numero);
+				resultado = conversionJouleHPHR(numero);
 			break;
 
 			case 6:
-			conversionJoulePielb(numero);
+				resultado = conversionJoulePielb(numero);
 			break;
 
 			case 7:
-			conversionJouleLitroAtm(numero);
+				resultado = conversionJouleLitroAtm(numero);
 			break;
 
 			case 8:
