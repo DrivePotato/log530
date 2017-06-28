@@ -1,3 +1,11 @@
+/*
+ * Created on : 20-06-17
+ * Author     : Olivier Rheault Gagnon et Gazi Hyder
+ * Description: Fichier contenant les constantes de conversions. Ce fichier a été automatiquement
+ * 				généré grace à un logiciel de convertisseur de langage. Les erreurs de compilations ont été 
+ * 				corrigés. Le code puant a été identifié et inscrit dans le rapport de laboratoire.
+ */
+
 final class DefineConstants
 {
 	public static final double JOULE_CALORIA = 0.23901;

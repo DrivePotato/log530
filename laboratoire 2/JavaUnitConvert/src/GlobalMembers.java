@@ -1,3 +1,11 @@
+/*
+ * Created on : 20-06-17
+ * Author     : Olivier Rheault Gagnon et Gazi Hyder
+ * Description: Fichier principal contenant les fonctionnalités de conversions. Ce fichier a été automatiquement
+ * 				généré grace à un logiciel de convertisseur de langage. Les erreurs de compilations ont été 
+ * 				corrigés. Le code puant a été identifié et inscrit dans le rapport de laboratoire.
+ */
+
 import java.util.Scanner;
 
 public class GlobalMembers
@@ -327,6 +335,7 @@ public class GlobalMembers
 		{
 			numero = Float.parseFloat(tempVar);
 		}
+		
 		String tempVar2 = ConsoleInput.scanfRead();
 		if (tempVar2 != null)
 		{
@@ -369,6 +378,7 @@ public class GlobalMembers
 			break;
 		}
 
+		// La variable resultado est populée dans une des méthodes de menu_conversion
 		System.out.printf("El resultado es %f\n", resultado);
 	}
 	public static void pressEnterKey(){
@@ -814,142 +824,4 @@ public class GlobalMembers
 	public static float resultado;
 	public static float numero;
 	public static int opcion;
-
-	//public static void main(String[] args) 
-	//{
-	//	menu_seleccion();
-	//}
-	//Definiciones para Joule a otras unidades y funciones inversas
-
-
-	//Definiciones para Caloria a otras unidades y funciones inversas, sin Joule
-
-
-	//Definiciones para KCaloria a otras unidades y funciones inversas, sin Joule ni Caloria
-
-
-	//Definiciones para Joule a otras unidades y funciones inversas, sin Joule, Caloria ni KCaloria
-
-
-	//Definiciones para KWHR a otras unidades y funciones inversas, sin Joule, Caloria, KCaloria ni BTU
-
-
-	//Definiciones para HPHR a otras unidades y funciones inversas, sin Joule, Caloria, KCaloria, BTU ni KWHR
-
-
-	//Definiciones para LitroAtm a otras unidades y funciones inversas, sin Joule, Caloria, KCaloria, BTU, KWHR ni HPHR
-
-
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJoulePielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionJouleLitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmJoule(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionCaloriaLitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKCaloriaLitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmKCaloria(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTUPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionBTULitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmBTU(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionKWHRLitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmKWHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionHPHRLitroAtm(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmHPHR(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionLitroAtmPielb(float numero);
-//C++ TO JAVA CONVERTER TODO TASK: The implementation of the following method could not be found:
-	//float conversionPielbLitroAtm(float numero);
 }

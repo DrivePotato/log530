@@ -1,3 +1,7 @@
+/*
+ * Created on : 20-06-17
+ * Author     : Olivier Rheault Gagnon et Gazi Hyder
+ */
 
 public class Main {
 
