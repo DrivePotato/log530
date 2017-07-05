@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include "libreria_energia.h"
-
 import libreria_energia
 import objeto as o
 
+#Constant to set the variable to a long double to avoid type truncation
 resultado=0.00000001
 numero=0.0000001
+
+#Default value for opcion
 opcion=0
 
 def main():
     menu_seleccion(); 
 
-
+#Print the menu selection
 def menu_seleccion():
     
     print("\nEscriba la cantidad, el numero correspondiente a la unidad que quiere convertir")
@@ -28,6 +28,8 @@ def menu_seleccion():
     print(numero)
     opcion=int(input("option? "))
     print("\n%f",numero)
+
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:menu_conversionJoule,
             2:menu_conversionCaloria,
@@ -38,12 +40,13 @@ def menu_seleccion():
             7:menu_conversionPielb,
             8:menu_conversionLitroAtm,
             }
+    # Branch on the value
     resultado=switch_dict[opcion]()
         
     print("El resultado es " + str(resultado))
     return
 
-
+# Print the menu for conversion from Joule
 def menu_conversionJoule():
     
     print("\n\nElija la unidad a la que desea convertir")
@@ -55,7 +58,8 @@ def menu_conversionJoule():
     print("\n5 -- HP-HR")
     print("\n6 -- Pie-Libra")
     print("\n7 -- Litro-Atmosfera\n")
-    
+
+    # Create a dictionnary that contain a pointer to the function we need to branch
     opcion=int(input("option? "))
     switch_dict = {
             1:o.conversionJouleCaloria,
@@ -66,12 +70,13 @@ def menu_conversionJoule():
             6:o.conversionJoulePielb,
             7:o.conversionJouleLitroAtm,
             }
+    # Branch on the value
     numero=int(input("numero? "))
     return switch_dict[opcion](numero)
 
 
 
-
+# Print the menu for conversion from Calorie
 def menu_conversionCaloria():
     print("Elija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -84,6 +89,7 @@ def menu_conversionCaloria():
     
     opcion=int(input("option? "))
     numero=int(input("numero? "))
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionCaloriaJoule,
             2:o.conversionCaloriaKCaloria,
@@ -93,11 +99,12 @@ def menu_conversionCaloria():
             6:o.conversionCaloriaPielb,
             7:o.conversionCaloriaLitroAtm,
             }
+    # Branch on the value
     numero=int(input("numero? "))
     return switch_dict[opcion](numero)    
 
 
-
+# Print the menu for conversion from Kilo Calorie
 def menu_conversionKCaloria():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -109,7 +116,7 @@ def menu_conversionKCaloria():
     print("\n7 -- Litro-Atmosfera\n")
     
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionKCaloriaJoule,
             2:o.conversionKCaloriaCaloria,
@@ -119,11 +126,12 @@ def menu_conversionKCaloria():
             6:o.conversionKCaloriaPielb,
             7:o.conversionKCaloriaLitroAtm,
             }
+    # Branch on the value
     numero=int(input("numero? "))
     return switch_dict[opcion](numero) 
 
 
-
+# Print the menu for conversion from BTU
 def menu_conversionBTU():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -135,7 +143,7 @@ def menu_conversionBTU():
     print("\n7 -- Litro-Atmosfera\n")
 
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionBTUJoule,
             2:o.conversionBTUCaloria,
@@ -149,7 +157,7 @@ def menu_conversionBTU():
     return switch_dict[opcion](numero)     
 
 
-
+# Print the menu for conversion from KWHR
 def menu_conversionKWHR():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -161,7 +169,7 @@ def menu_conversionKWHR():
     print("\n7 -- Litro-Atmosfera\n")
 
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionKWHRJoule,
             2:o.conversionKWHRCaloria,
@@ -175,7 +183,7 @@ def menu_conversionKWHR():
     return switch_dict[opcion](numero)  
 
 
-
+# Print the menu for conversion from HPHR
 def menu_conversionHPHR():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -187,7 +195,7 @@ def menu_conversionHPHR():
     print("\n7 -- Litro-Atmosfera\n")
  
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionHPHRJoule,
             2:o.conversionHPHRCaloria,
@@ -201,7 +209,7 @@ def menu_conversionHPHR():
     return switch_dict[opcion](numero)  
 
 
-
+# Print the menu for conversion from Pielb
 def menu_conversionPielb():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -213,7 +221,7 @@ def menu_conversionPielb():
     print("\n7 -- Litro-Atmosfera\n")
 
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionPielbJoule,
             2:o.conversionPielbCaloria,
@@ -226,7 +234,7 @@ def menu_conversionPielb():
     numero=int(input("numero? "))
     return switch_dict[opcion](numero)  
 
-
+# Print the menu for conversion from Litre ATM
 def menu_conversionLitroAtm():
     print("\n\nElija la unidad a la que desea convertir")
     print("\n1 -- Joule")
@@ -239,7 +247,7 @@ def menu_conversionLitroAtm():
 
 
     opcion=int(input("option? "))
-
+    # Create a dictionnary that contain a pointer to the function we need to branch
     switch_dict = {
             1:o.conversionLitroAtmJoule,
             2:o.conversionLitroAtmCaloria,

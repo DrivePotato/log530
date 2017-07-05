@@ -1,4 +1,3 @@
-#include "libreria_energia.h"
 import libreria_energia as l
 #Funciones de conversion de Joule a otras unidades
 
